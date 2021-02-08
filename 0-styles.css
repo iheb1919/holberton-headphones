@@ -8,7 +8,7 @@
     --color-grey: #a0a0a0;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --color-red: #cd3e65;
+    --color-red: #FF6565;
     --color-green: #08805b;
   
     --text-color: var(--color-black);
@@ -81,6 +81,7 @@
     color: var(--color-white);
    
 }
+
 header{
     background-image: url('images/headphones_hero_1.jpg');
     background-position: center;
@@ -116,6 +117,7 @@ header{
 }
 .nav-link li a:hover {
     color: var(--color-red);
+    opacity: 0.9;
 }
 .button {
     display: inline-block;
@@ -129,8 +131,9 @@ header{
     padding-top: 10px;
 }
 .button:hover {
-    background-color: var(--color-white);
-    color: var(--color-primary);
+    /* background-color: var(--color-white); */
+    background-color: var(--color-red);
+    opacity: 0.9;
 }
 .a-container{
     width: 100%;

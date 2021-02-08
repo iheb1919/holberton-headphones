@@ -81,6 +81,21 @@
    
    
 }
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-Regular.otf')
+}
+
+@font-face {
+  font-family: 'Spin Cycle';
+  src: url('./fonts/spincycle_ot.otf');
+}
+
+@font-face {
+  font-family: 'holberton_school-icon';
+  src: url('./fonts/holberton_school-icon.ttf');
+}
+head
 html {
   height: 100%;
   position: relative;
@@ -107,7 +122,7 @@ header{
   
     cursor: pointer;
     
-    border: black solid;
+  
     
 }
 .nav-link{
@@ -313,7 +328,7 @@ header .menu-btn:checked ~ .menu-icon .navicon::before, header .menu-btn:checked
    
 }
 .section1 p {
-    border: var(--color-black) solid;
+  
     max-width: 60%;
     margin: auto;
     font-family: sans-serif;
@@ -373,11 +388,13 @@ header .menu-btn:checked ~ .menu-icon .navicon::before, header .menu-btn:checked
     
 
 }
-
 .what-cards div span {
-    font-size: 150px;
-    color: var(--color-secondary);   
+  font-size: 100px;
+   color: var(--color-primary);
+  font-family: 'holberton_school-icon' ; 
 }
+
+
 
 .what-cards div h2 {
     font-weight: 800;
@@ -399,7 +416,7 @@ header .menu-btn:checked ~ .menu-icon .navicon::before, header .menu-btn:checked
 
 .Our-results {
     background-image: url('images/headphones_hero_2.jpg');
-    border: var(--color-green) solid;
+  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -417,14 +434,14 @@ header .menu-btn:checked ~ .menu-icon .navicon::before, header .menu-btn:checked
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    border: var(--color-red) solid;
+    
 }
 .hexagon { 
     background-image: url("images/pentagone.png");
     background-size: auto 80%;
     background-repeat: no-repeat;
     background-position:  center;
-    border: green solid;
+  
     height: 200px;
     width: 200px;
     text-align: center;  
